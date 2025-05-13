@@ -206,7 +206,6 @@ def log_validation(vae, text_encoder, tokenizer, transformer3d, network, args, a
                             width       = args.video_sample_size,
                             guidance_scale = 7,
                             generator   = generator,
-
                             video        = input_video,
                             mask_video   = input_video_mask,
                         ).videos
@@ -363,7 +362,7 @@ def parse_args():
         help="whether to use cuda multi-stream",
     )
     parser.add_argument(
-        "--train_batch_size", type=int, default=16, help="Batch size (per device) for the training dataloader."
+        "--train_batch_size", type=int, default=12, help="Batch size (per device) for the training dataloader."
     )
     parser.add_argument(
         "--vae_mini_batch", type=int, default=32, help="mini batch size for vae."
@@ -946,8 +945,8 @@ def main():
         batch_sampler_generator = torch.Generator().manual_seed(args.seed)
         batch_sampler = AspectRatioBatchImageVideoSampler(
             sampler=RandomSampler(train_dataset, generator=batch_sampler_generator), dataset=train_dataset.dataset, 
-            batch_size=args.train_batch_size, train_folder = args.train_data_dir, drop_last=True,
-            aspect_ratios=aspect_ratio_sample_size,
+             batch_size=args.train_batch_size, train_folder = args.train_data_dir, drop_last=True, # todo drop_last
+            aspect_ratios=aspect_ratio_sample_size, 
         )
 
         def get_length_to_frame_num(token_length):
@@ -984,6 +983,7 @@ def main():
             pixel_value     = examples[0]["pixel_values"]
             data_type       = examples[0]["data_type"]
             f, h, w, c      = np.shape(pixel_value)
+
             if data_type == 'image':
                 random_downsample_ratio = 1 if not args.random_hw_adapt else get_random_downsample_ratio(args.image_sample_size, image_ratio=[args.image_sample_size / args.video_sample_size], rng=rng)
 
@@ -1086,8 +1086,33 @@ def main():
                 if batch_video_length <= 0:
                     batch_video_length = 1
 
+                # todo
                 if args.train_mode != "normal":
-                    mask = get_random_mask(new_examples["pixel_values"][-1].size())
+                    icl = True
+                    if icl == True:
+                        import random
+                        probability = random.random()
+
+                        result = True if probability < 0.1 else False
+                        
+                        if result == True:
+                            random_mask  = get_random_mask(new_examples["pixel_values"][-1].size()) # 逻辑是什么？ # add some mask condition 1. first frame, 
+                        else:
+                            temp_mask = torch.ones_like(new_examples["pixel_values"][-1])  # Create a tensor of ones with the same shape as random_mask
+                            temp_mask[0, :, :, :] = 0
+                            random_mask = temp_mask
+        
+                        mask = random_mask.clone()
+                        # Set the left half of the mask to 1
+                        mask[:, :, :, :int(mask.shape[-1] / 2)] = 0
+                        # Perform resizing using bilinear interpolation (downsampling width by half)
+                        resized_mask = F.interpolate(random_mask, size=(random_mask.size()[-2], random_mask.size()[-1] // 2), mode='bilinear', align_corners=False)
+
+                        # Ensure the resized_mask matches the right half of the mask
+                        mask[:, :, :, int(mask.shape[-1] / 2):] = resized_mask[:,[0]]
+
+                    mask  = get_random_mask(new_examples["pixel_values"][-1].size())
+
                     mask_pixel_values = new_examples["pixel_values"][-1] * (1 - mask) + torch.ones_like(new_examples["pixel_values"][-1]) * -1 * mask
                     new_examples["mask_pixel_values"].append(mask_pixel_values)
                     new_examples["mask"].append(mask)
@@ -1097,6 +1122,8 @@ def main():
             if args.train_mode != "normal":
                 new_examples["mask_pixel_values"] = torch.stack([example[:batch_video_length] for example in new_examples["mask_pixel_values"]])
                 new_examples["mask"] = torch.stack([example[:batch_video_length] for example in new_examples["mask"]])
+                # mask are randomized
+
 
             # Encode prompts when enable_text_encoder_in_dataloader=True
             if args.enable_text_encoder_in_dataloader:
@@ -1121,10 +1148,11 @@ def main():
         train_dataloader = torch.utils.data.DataLoader(
             train_dataset,
             batch_sampler=batch_sampler,
-            collate_fn=collate_fn,
+            collate_fn=collate_fn, # collate_fn
             persistent_workers=True if args.dataloader_num_workers != 0 else False,
             num_workers=args.dataloader_num_workers,
         )
+
     else:
         # DataLoaders creation:
         batch_sampler_generator = torch.Generator().manual_seed(args.seed)
@@ -1134,6 +1162,7 @@ def main():
             batch_sampler=batch_sampler, 
             persistent_workers=True if args.dataloader_num_workers != 0 else False,
             num_workers=args.dataloader_num_workers,
+            shuffle=True,
         )
 
     # Scheduler and math around the number of training steps.
@@ -1261,8 +1290,13 @@ def main():
     for epoch in range(first_epoch, args.num_train_epochs):
         train_loss = 0.0
         batch_sampler.sampler.generator = torch.Generator().manual_seed(args.seed + epoch)
+
         for step, batch in enumerate(train_dataloader):
+            # print(batch['text'])
             # Data batch sanity check
+            # if batch is None:
+            #     print(f"Warning: Empty batch at step {step}")
+            #     continue
             if epoch == first_epoch and step == 0:
                 pixel_values, texts = batch['pixel_values'].cpu(), batch['text']
                 pixel_values = rearrange(pixel_values, "b f c h w -> b c f h w")
@@ -1531,7 +1565,14 @@ def main():
                 )
                 prompt_embeds = prompt_embeds.to(device=latents.device)
 
+
+
+
                 noisy_latents = noise_scheduler.add_noise(latents, noise, timesteps)
+
+                # latents.shape
+                # torch.Size([2, 4, 16, 24, 42])
+
                 if noise_scheduler.config.prediction_type == "epsilon":
                     target = noise
                 elif noise_scheduler.config.prediction_type == "v_prediction":
@@ -1540,16 +1581,27 @@ def main():
                     raise ValueError(f"Unknown prediction type {noise_scheduler.config.prediction_type}")
 
                 # predict the noise residual
+
                 noise_pred = transformer3d(
-                    hidden_states=noisy_latents,
-                    encoder_hidden_states=prompt_embeds,
-                    timestep=timesteps,
-                    image_rotary_emb=image_rotary_emb,
+                    hidden_states=noisy_latents, # torch.Size([2, 4, 16, 24, 42])
+                    encoder_hidden_states=prompt_embeds, # torch.Size([2, 226, 4096])
+                    timestep=timesteps, 
+                    image_rotary_emb=image_rotary_emb, # torch.Size([504, 64])
                     return_dict=False,
-                    inpaint_latents=inpaint_latents if args.train_mode != "normal" else None,
+                    inpaint_latents=inpaint_latents if args.train_mode != "normal" else None, # torch.Size([2, 4, 19, 24, 42])
                 )[0]
+
+                # 1. 只计算右边部分的loss
+                # 2. 对应的需要和inpaint latents 匹配上
+
+
+                # loss = F.mse_loss(noise_pred.float(), target.float(), reduction="mean")
                 
-                loss = F.mse_loss(noise_pred.float(), target.float(), reduction="mean")
+                noise_pred[:,:,:,:,:21] = target[:,:,:,:,:21]
+
+                # loss = F.mse_loss(noise_pred[:,:,:,:,21:].float(), target[:,:,:,:,21:].float(), reduction="mean")
+
+                loss = F.mse_loss(noise_pred[:,:,:,:,:].float(), target[:,:,:,:,:].float(), reduction="mean")
 
                 if args.motion_sub_loss and noise_pred.size()[1] > 2:
                     gt_sub_noise = noise_pred[:, 1:, :].float() - noise_pred[:, :-1, :].float()
@@ -1558,8 +1610,12 @@ def main():
                     loss = loss * (1 - args.motion_sub_loss_ratio) + sub_loss * args.motion_sub_loss_ratio
 
                 # Gather the losses across all processes for logging (if we use distributed training).
-                avg_loss = accelerator.gather(loss.repeat(args.train_batch_size)).mean()
-                train_loss += avg_loss.item() / args.gradient_accumulation_steps
+                # avg_loss = accelerator.gather(loss.repeat(args.train_batch_size)).mean()
+
+                # 除去多余的 repeat 操作，直接计算平均损失
+                with torch.no_grad():
+                    avg_loss = accelerator.gather(loss.detach()).mean()
+                    train_loss += (avg_loss.item() / args.gradient_accumulation_steps)
 
                 # Backpropagate
                 accelerator.backward(loss)
@@ -1568,6 +1624,8 @@ def main():
                 optimizer.step()
                 lr_scheduler.step()
                 optimizer.zero_grad()
+                # VRAM Clean
+                # torch.cuda.empty_cache()
 
             # Checks if the accelerator has performed an optimization step behind the scenes
             if accelerator.sync_gradients:

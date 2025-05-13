@@ -5,7 +5,7 @@ import math
 import os
 import random
 from threading import Thread
-
+# 
 import albumentations
 import cv2
 import gc
@@ -21,6 +21,7 @@ from torch.utils.data.dataset import Dataset
 from contextlib import contextmanager
 
 VIDEO_READER_TIMEOUT = 20
+
 
 def get_random_mask(shape):
     f, c, h, w = shape
@@ -101,6 +102,9 @@ def get_random_mask(shape):
     else:
         raise ValueError(f"The mask_index {mask_index} is not define")
     return mask
+
+
+
 
 class ImageVideoSampler(BatchSampler):
     """A sampler wrapper for grouping images with similar aspect ratio into a same batch.
@@ -339,6 +343,7 @@ class ImageVideoDataset(Dataset):
                 print(e, self.dataset[idx % len(self.dataset)])
                 idx = random.randint(0, self.length-1)
 
+        # 
         if self.enable_inpaint and not self.enable_bucket:
             mask = get_random_mask(pixel_values.size())
             mask_pixel_values = pixel_values * (1 - mask) + torch.ones_like(pixel_values) * -1 * mask

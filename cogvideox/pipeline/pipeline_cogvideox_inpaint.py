@@ -499,6 +499,7 @@ class CogVideoX_Fun_Pipeline_Inpaint(DiffusionPipeline):
         is_strength_max=True,
         return_noise=False,
         return_video_latents=False,
+        icl = False,
     ):
         shape = (
             batch_size,
@@ -534,6 +535,11 @@ class CogVideoX_Fun_Pipeline_Inpaint(DiffusionPipeline):
             noise = randn_tensor(shape, generator=generator, device=device, dtype=dtype)
             # if strength is 1. then initialise the latents to noise, else initial to image + noise
             latents = noise if is_strength_max else self.scheduler.add_noise(video_latents, noise, timestep)
+
+            # icl = True
+            if icl: 
+                latents = noise
+
             # if pure noise then scale the initial latents by the  Scheduler's init sigma
             latents = latents * self.scheduler.init_noise_sigma if is_strength_max else latents
         else:
@@ -750,7 +756,8 @@ class CogVideoX_Fun_Pipeline_Inpaint(DiffusionPipeline):
         timesteps = self.scheduler.timesteps[t_start * self.scheduler.order :]
 
         return timesteps, num_inference_steps - t_start
-
+    
+    # 
     @torch.no_grad()
     @replace_example_docstring(EXAMPLE_DOC_STRING)
     def __call__(
@@ -784,6 +791,7 @@ class CogVideoX_Fun_Pipeline_Inpaint(DiffusionPipeline):
         strength: float = 1,
         noise_aug_strength: float = 0.0563,
         comfyui_progressbar: bool = False,
+        icl = False,
     ) -> Union[CogVideoX_Fun_PipelineOutput, Tuple]:
         """
         Function invoked when calling the pipeline for generation.
@@ -972,7 +980,80 @@ class CogVideoX_Fun_Pipeline_Inpaint(DiffusionPipeline):
             is_strength_max=is_strength_max,
             return_noise=True,
             return_video_latents=return_image_latents,
+            icl=icl,
         )
+
+
+        _, _, video_latents = self.prepare_latents(
+            batch_size * num_videos_per_prompt,
+            num_channels_latents,
+            height,
+            width,
+            video_length,
+            prompt_embeds.dtype,
+            device,
+            generator,
+            latents,
+            video=init_video, # torch.Size([1, 3, 47, 384, 672])
+            timestep=latent_timestep,
+            is_strength_max=is_strength_max,
+            return_noise=True,
+            return_video_latents=True,
+        )
+
+
+        
+        # todo start flux 
+
+        if icl:
+            mask_image = "/ssd1/jinxiu/PhysVideoGen/CogVideoX-Fun/mask_image.png" # 在外就需要resize 成 768 * 768
+            resize_mode = "default"
+            crops_coords = None
+            
+            # 写一个python代码，将mask image 转化为 PIL.Image 的格式
+            
+            # Define the mask image path
+            mask_image_path = "/ssd1/jinxiu/PhysVideoGen/CogVideoX-Fun/mask_image.png"
+            # 
+            from PIL import Image
+            # Load the image using PIL
+            mask_image = Image.open(mask_image_path)
+
+            # Check if resizing is needed
+            if mask_image.size != (height, width):
+                mask_image = mask_image.resize((height, width))
+            
+            mask_condition_icl = self.mask_processor.preprocess(
+                mask_image, height=height, width=width, resize_mode=resize_mode, crops_coords=crops_coords
+            ) # mask_image 黑白 # 转化成视频的形式 # torch.Size([1, 1, 384, 672])
+            
+            
+            mask_condition_resized = mask_condition_icl.repeat(1, 1, 47, 1, 1)  # Shape: [1, 1, 47, 384, 672]
+            # mask_condition_resized = mask_condition_resized.permute(0, 2, 3, 4, 1)  # Permute to [1, 47, 384, 672, 1]
+            init_video = init_video.to(video_latents.device).to(video_latents.dtype)
+            # Now we can apply the mask condition to the init_video tensor
+            # Mask the video frames using the condition
+            
+            masked_image_latents = None
+            if masked_image_latents is None:
+                # masked_image = init_video * (mask_condition < 0.5)
+                mask_condition_icl = mask_condition_resized.expand(-1, 3, -1, -1, -1)  # shape becomes [1, 3, 47, 384, 672]
+                # Step 2: Apply the mask condition (use broadcasting for element-wise multiplication)
+                masked_video_icl = init_video * (mask_condition_icl.to(video_latents.device).to(video_latents.dtype) < 0.5)
+                
+                # masked_video = init_video * (mask_condition_resized < 0.5)
+                # init_video.shape torch.Size([1, 3, 47, 384, 672])
+            else:
+                masked_image = masked_image_latents
+        
+            mask_icl = mask_condition_icl[:, :1]
+            mask_icl = torch.tile(mask_icl, [1, 12, 1, 1, 1])
+            mask_icl = F.interpolate(mask_icl, size=video_latents.size()[-3:], mode='trilinear', align_corners=True).to(video_latents.device, video_latents.dtype)
+            mask_icl = rearrange(mask_icl, "b c f h w -> b f c h w")
+        
+        # todo end flux 
+
+
         if return_image_latents:
             latents, noise, image_latents = latents_outputs
         else:
@@ -980,8 +1061,10 @@ class CogVideoX_Fun_Pipeline_Inpaint(DiffusionPipeline):
         if comfyui_progressbar:
             pbar.update(1)
         
+        # mask latents 部分代码
         if mask_video is not None:
             if (mask_video == 255).all():
+            # if True:
                 mask_latents = torch.zeros_like(latents)[:, :, :1].to(latents.device, latents.dtype)
                 masked_video_latents = torch.zeros_like(latents).to(latents.device, latents.dtype)
 
@@ -1000,7 +1083,7 @@ class CogVideoX_Fun_Pipeline_Inpaint(DiffusionPipeline):
                 if num_channels_transformer != num_channels_latents:
                     mask_condition_tile = torch.tile(mask_condition, [1, 3, 1, 1, 1])
                     if masked_video_latents is None:
-                        masked_video = init_video * (mask_condition_tile < 0.5) + torch.ones_like(init_video) * (mask_condition_tile > 0.5) * -1
+                        masked_video = init_video * (mask_condition_tile.to(init_video.device) < 0.5) + torch.ones_like(init_video) * (mask_condition_tile.to(init_video.device) > 0.5) * -1
                     else:
                         masked_video = masked_video_latents
 
@@ -1085,6 +1168,8 @@ class CogVideoX_Fun_Pipeline_Inpaint(DiffusionPipeline):
                 timestep = t.expand(latent_model_input.shape[0])
 
                 # predict noise model_output
+                # 
+
                 noise_pred = self.transformer(
                     hidden_states=latent_model_input,
                     encoder_hidden_states=prompt_embeds,
@@ -1118,6 +1203,26 @@ class CogVideoX_Fun_Pipeline_Inpaint(DiffusionPipeline):
                         return_dict=False,
                     )
                 latents = latents.to(prompt_embeds.dtype)
+
+
+                # todo start flux
+                if icl:
+                    init_latents_proper = video_latents # 没有任何image encoder
+                    init_mask = mask_icl.permute(0, 2, 1, 3, 4)
+
+
+
+                    if i < len(timesteps) - 1:
+                        shape = latents.shape
+                        dtype = latents.dtype
+                        noise = randn_tensor(shape, generator=generator, device=device, dtype=dtype)
+                        # if strength is 1. then initialise the latents to noise, else initial to image + noise
+                        noise_timestep = timesteps[i+1]
+                        init_latents_proper = self.scheduler.add_noise(video_latents, noise, noise_timestep)
+
+                    latents = (1 - init_mask) * init_latents_proper + init_mask * latents # 每次执行都会
+                
+                # todo end flux
 
                 # call the callback, if provided
                 if callback_on_step_end is not None:

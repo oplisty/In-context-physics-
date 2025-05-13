@@ -25,7 +25,7 @@ from cogvideox.utils.utils import get_video_to_video_latent, save_videos_grid
 low_gpu_memory_mode = False
 
 # model path
-model_name          = "models/Diffusion_Transformer/CogVideoX-Fun-V1.1-2b-InP"
+model_name          = "/ssd2/jinxiu/weights/cogvideo/models/Diffusion_Transformer/CogVideoX-Fun-V1.5-5b-InP"
 
 # Choose the sampler in "Euler" "Euler A" "DPM++" "PNDM" and "DDIM"
 sampler_name        = "DDIM_Origin"
@@ -48,12 +48,22 @@ weight_dtype            = torch.bfloat16
 # If you do not use validation_video_mask, the entire video will be redrawn; 
 # if you use validation_video_mask, only a portion of the video will be redrawn.
 # Please set a larger denoise_strength when using validation_video_mask, such as 1.00 instead of 0.70
-validation_video        = "asset/1.mp4"
+
+
+validation_video        = "/ssd1/jinxiu/Ads/In-Context-LoRA/output_video_1.mp4"
+validation_video = "/ssd1/jinxiu/PhysVideoGen/CogVideoX-Fun/basketball1_concatenated_47frames_fps8.mp4"
 validation_video_mask   = None 
-denoise_strength        = 0.70
+denoise_strength        = 1.0
 
 # prompts
 prompt                  = "A cute cat is playing the guitar. "
+
+
+prompt_structure = "The two-panel video features a brand logo, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in "
+prompt = prompt_structure + " a football is falling "
+
+icl = True
+
 negative_prompt         = "The video is not of a high quality, it has a low resolution. Watermark present in each frame. The background is solid. Strange body and strange trajectory. Distortion. "
 guidance_scale          = 6.0
 seed                    = 43
@@ -66,6 +76,8 @@ transformer = CogVideoXTransformer3DModel.from_pretrained_2d(
     subfolder="transformer",
     low_cpu_mem_usage=True,
 ).to(weight_dtype)
+
+
 
 if transformer_path is not None:
     print(f"From checkpoint: {transformer_path}")
@@ -150,6 +162,9 @@ if video_length != 1 and transformer.config.patch_size_t is not None and latent_
     video_length += additional_frames * vae.config.temporal_compression_ratio
 input_video, input_video_mask, clip_image = get_video_to_video_latent(validation_video, video_length=video_length, sample_size=sample_size, validation_video_mask=validation_video_mask, fps=fps)
 
+# 
+input_video_mask[:,:,0] = 0
+
 with torch.no_grad():
     sample = pipeline(
         prompt, 
@@ -160,10 +175,10 @@ with torch.no_grad():
         generator   = generator,
         guidance_scale = guidance_scale,
         num_inference_steps = num_inference_steps,
-
         video       = input_video,
         mask_video  = input_video_mask,
         strength    = denoise_strength,
+        icl = icl,
     ).videos
 
 if lora_path is not None:
