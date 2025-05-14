@@ -185,3 +185,4 @@ __pycache__/
 pytorch-i3d/concat_videos/
 pytorch-i3d/square_video/
 pytorch-i3d/models
+kinetics-i3d/data/checkpoints/
