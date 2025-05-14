@@ -169,8 +169,6 @@ classified_videos_mp4/
 selected_videos/
 selected_videos/
 classified_videos_mp4/
-kinetics-i3d/
-ss2_env/
 
 #在项目根目录的 .gitignore 中添加以下内容
 # 忽略 Python 虚拟环境中的二进制文件
