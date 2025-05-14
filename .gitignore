@@ -3,7 +3,6 @@ output*
 logs*
 taming*
 samples*
-datasets*
 asset*
 __pycache__/
 *.py[cod]
