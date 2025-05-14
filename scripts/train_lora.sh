@@ -76,13 +76,13 @@
 # #   --low_vram \
 # #   --train_mode="inpaint" 
 
-export MODEL_NAME="/ssd2/jinxiu/weights/cogvideo/models/Diffusion_Transformer/CogVideoX-Fun-V1.5-5b-InP"
+export MODEL_NAME="models/Diffusion_Transformer/CogVideoX-Fun-V1.5-5b-InP"
 
 # export DATASET_NAME="/ssd1/jinxiu/PhysVideoGen/CogVideoX-Fun/datasets/internal_datasets/"
 # export DATASET_META_NAME="/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/internal_datasets/metadata.json"
 
-export DATASET_NAME="/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train"
-export DATASET_META_NAME="/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_metadata.json"
+export DATASET_NAME="datasets/sth_datasets_train"
+export DATASET_META_NAME="sth_metadata.json"
 
 
 
