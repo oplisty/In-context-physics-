@@ -146,7 +146,7 @@ export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 # train_batch_size = 12
 
 accelerate launch --use_deepspeed --deepspeed_config_file config/zero_stage2_config.json --deepspeed_multinode_launcher standard --main_process_port 29503 scripts/train_lora.py \
-  --pretrained_model_name_or_path=/ssd2/jinxiu/weights/cogvideo/models/Diffusion_Transformer/CogVideoX-Fun-V1.5-5b-InP \
+  --pretrained_model_name_or_path=models/Diffusion_Transformer/CogVideoX-Fun-V1.5-5b-InP \
   --train_data_dir=$DATASET_NAME \
   --train_data_meta=$DATASET_META_NAME \
   --image_sample_size=1024 \
