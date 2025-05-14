@@ -183,3 +183,5 @@ ss2_env/lib/python3.8/site-packages/tensorflow/libtensorflow_cc.so.2
 *.pyc
 __pycache__/
 pytorch-i3d/concat_videos/
+pytorch-i3d/square_video/
+pytorch-i3d/models
