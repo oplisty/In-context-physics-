@@ -135,7 +135,7 @@ NCCL_DEBUG=INFO
 
 # inference
 
-export CUDA_VISIBLE_DEVICES=0,1,3
+export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 
 # accelerate launch --multi_gpu --num_processes 2 --main_process_port 29502 --mixed_precision="bf16" scripts/train_lora.py \
 
