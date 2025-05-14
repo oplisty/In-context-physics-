@@ -1,0 +1,902 @@
+[
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Covering_[something]_with_[something]_pair_1316_0_8444_pair_390_0_8367.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a blue and clear pen lying on a wooden surface. The scene remains static, with no noticeable changes or movements in this portion throughout the clip.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Covering_[something]_with_[something]_pair_141_0_8312_pair_525_0_8221.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the video shows a patterned fabric with blue and white designs, possibly on a bed or table.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Covering_[something]_with_[something]_pair_143_0_8138_pair_509_0_8083.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a person's hand moving back and forth over an orange surface, possibly cleaning or wiping it.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Covering_[something]_with_[something]_pair_217_0_8072_pair_128_0_8048.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video shows a split-screen view of two different backgrounds. On the left side, there is a plain white surface with a floral pattern, while on the right side, a colorful diamond-patterned background features a yellow object and blue and red shapes.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Covering_[something]_with_[something]_pair_390_0_8367_pair_141_0_8312.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a table with an orange surface. On it, there is a pair of scissors and a red cup.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Covering_[something]_with_[something]_pair_509_0_8083_pair_217_0_8072.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the video shows a white wall with a green floral-patterned cloth on it. A pen is also visible near the edge, and there's no significant movement or action taking place in this part.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Covering_[something]_with_[something]_pair_525_0_8221_pair_859_0_8182.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The USB flash drive is black and has a label with the number 50.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Covering_[something]_with_[something]_pair_691_0_8604_pair_1316_0_8444.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the video shows a person holding up a white piece of paper with both hands.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Covering_[something]_with_[something]_pair_859_0_8182_pair_143_0_8138.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a blue Nokia phone is placed on a wooden surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Hitting_[something]_with_[something]_pair_120_0_7353_pair_707_0_7323.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a person is seen using a blue plastic tool to remove water from a pink bowl.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Hitting_[something]_with_[something]_pair_14_0_7401_pair_34_0_7393.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: \u5728\u53f3\u534a\u90e8\u5206\uff0c\u4e00\u4e2a\u4eba\u7528\u4e00\u652f\u7ec6\u957f\u7684\u6728\u68d2\u5728\u74f6\u53e3\u8f7b\u8f7b\u65cb\u8f6c\uff0c\u8bd5\u56fe\u6253\u5f00\u4e00\u4e2a\u73bb\u7483\u74f6\u3002",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Hitting_[something]_with_[something]_pair_29_0_7487_pair_636_0_7474.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a pair of pliers on a floral-patterned cloth.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Hitting_[something]_with_[something]_pair_34_0_7393_pair_858_0_7376.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The person is cleaning a bottle with a cloth and then using a toothpick to clean the inside of it.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Hitting_[something]_with_[something]_pair_409_0_7470_pair_14_0_7401.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a person is applying makeup with a brush on their face.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Hitting_[something]_with_[something]_pair_447_0_7664_pair_29_0_7487.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: \u5728\u684c\u5b50\u4e0a\u7684\u6c34\u7897\u91cc\uff0c\u4e00\u4f4d\u5973\u5b50\u7528\u52fa\u5b50\u6405\u62cc\u7740\u6db2\u4f53\u3002",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Hitting_[something]_with_[something]_pair_449_0_7690_pair_447_0_7664.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a hand is seen holding a wrench next to a Sony Xperia smartphone placed on the floor. The background appears to be indoors with wooden furniture visible.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Hitting_[something]_with_[something]_pair_636_0_7474_pair_409_0_7470.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the frame, a hand is holding a pink lipstick with black accents.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Hitting_[something]_with_[something]_pair_858_0_7376_pair_120_0_7353.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On a white marble surface, a small, round stone rests. A metal hammer is positioned to the right of the stone. The scene remains static for several seconds before the hammer strikes the stone with force.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Holding_[something]_in_front_of_[something]_pair_158_0_8674_pair_319_0_8324.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the video shows a person wearing a red shirt using various tools to work on a blue electronic device. The individual is seen holding and manipulating different objects, including what appears to be a screwdriver or similar tool.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Holding_[something]_in_front_of_[something]_pair_204_0_7393_pair_802_0_7344.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: \u5728\u53f3\u534a\u90e8\u5206\uff0c\u4e00\u4e2a\u4eba\u624b\u8f6c\u52a8\u4e00\u4e2a Rubik's cube\u3002",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Holding_[something]_in_front_of_[something]_pair_319_0_8324_pair_352_0_7865.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the video shows a hand holding and manipulating an orange, textured object against a blue netted background.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Holding_[something]_in_front_of_[something]_pair_352_0_7865_pair_545_0_7780.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video focuses on a hand holding and manipulating a white mask with yellow ear loops against a plain background.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Holding_[something]_in_front_of_[something]_pair_435_0_7756_pair_58_0_7578.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a hand holding a pink and black pen above an orange surface with a blue lid.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Holding_[something]_in_front_of_[something]_pair_545_0_7780_pair_887_0_7763.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a hand holds a potato above a fan. The fan is turned on, causing air to blow towards the potato, simulating wind conditions for the experiment.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Holding_[something]_in_front_of_[something]_pair_58_0_7578_pair_204_0_7393.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the split-screen, a hand is seen holding and adjusting a white USB cable with a black connector. The cable appears to be connected to a red mug.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Holding_[something]_in_front_of_[something]_pair_802_0_7344_pair_139_0_7269.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a calculator is placed on a table with scissors lying next to it.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Holding_[something]_in_front_of_[something]_pair_887_0_7763_pair_435_0_7756.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a hand holds a black remote control with multiple buttons over a metal basket.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_down_pair_1064_0_8770_pair_1078_0_8608.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a person's hands are shown handling various objects. The individual picks up and examines a stack of white paper or cards before placing them down on a surface with other items, including what appears to be a blue container or organizer.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_down_pair_1078_0_8608_pair_437_0_8166.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the video focuses on a hand holding a pen, moving it across a white surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_down_pair_437_0_8166_pair_743_0_8134.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video focuses on a hand holding an orange and white lighter, which remains stationary throughout.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_down_pair_483_0_9204_pair_849_0_9204.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a hand holding a blue pen over a yellow and black checkered surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_down_pair_4_0_7977_pair_873_0_7938.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video shows a person opening a small chest with a key.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_down_pair_743_0_8134_pair_771_0_8040.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a hand is seen holding a black pen with a silver clip on a white surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_down_pair_771_0_8040_pair_815_0_7988.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the video shows a person holding a green pencil over a piece of paper with floral designs. The hand moves the pencil across the paper, drawing or tracing patterns on it.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_down_pair_815_0_7988_pair_4_0_7977.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a close-up view of a hand holding and manipulating various objects on a wooden surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_down_pair_849_0_9204_pair_1064_0_8770.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video shows a hand interacting with a brown package, possibly opening or examining it.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_up_pair_1274_0_8261_pair_1462_0_8257.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a yellow razor is lying on the floor.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_up_pair_1338_0_8249_pair_298_0_8190.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video focuses on the right side of a table, where a person's hand holds a blue and white pen. The background features a piece of paper with an image of a building and a card featuring a cityscape.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_up_pair_1341_0_8005_pair_620_0_8000.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a hand holds a red can with a white lid. The person opens it to reveal its contents and places it back down on a surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_up_pair_1462_0_8257_pair_1338_0_8249.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a hand holding and manipulating a blue pen with a white cap against a plain wall background.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_up_pair_271_0_7985_pair_280_0_7972.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a person is seen organizing items on a shelf. They place various objects including a black belt and shoes in an orderly manner.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_up_pair_280_0_7972_pair_245_0_7970.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a hand is seen holding and manipulating a piece of clothing or fabric.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_up_pair_298_0_8190_pair_1341_0_8005.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the screen, a person is holding a white smartphone with both hands. The phone's screen displays various images and videos, but it remains off throughout the video.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_up_pair_505_0_9179_pair_1274_0_8261.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video focuses on a hand holding and manipulating a metal cup.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Moving_[something]_up_pair_620_0_8000_pair_271_0_7985.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a person is seen using a hairbrush to comb through their hair.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Poking_[something]_so_lightly_that_it_doesn't_or_almost_doesn't_move_pair_131_0_7619_pair_473_0_7594.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video shows a hand pointing at a bottle of nail polish on a wooden table.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Poking_[something]_so_lightly_that_it_doesn't_or_almost_doesn't_move_pair_275_0_7367_pair_417_0_7332.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a hand is seen holding a fork and moving it towards a potted plant on top of a white appliance.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Poking_[something]_so_lightly_that_it_doesn't_or_almost_doesn't_move_pair_417_0_7332_pair_428_0_7314.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a hand is seen reaching out to touch and interact with something on a window.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Poking_[something]_so_lightly_that_it_doesn't_or_almost_doesn't_move_pair_428_0_7314_pair_521_0_7279.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: \u5728\u53f3\u4fa7\u753b\u9762\u4e2d\uff0c\u4e00\u53ea\u72d7\u9759\u9759\u5730\u8eba\u5728\u5730\u677f\u4e0a\u3002",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Poking_[something]_so_lightly_that_it_doesn't_or_almost_doesn't_move_pair_473_0_7594_pair_944_0_7573.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video shows a person's hand pointing at various leaves on a green bush.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Poking_[something]_so_lightly_that_it_doesn't_or_almost_doesn't_move_pair_481_0_7530_pair_874_0_7499.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the image shows a box with a polka dot pattern on it. The word \"HOPE\" is visible, along with an illustration of a house and a person inside.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Poking_[something]_so_lightly_that_it_doesn't_or_almost_doesn't_move_pair_521_0_7279_pair_687_0_7254.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the video focuses on a car's headlight. A hand with a black wristband points at it, highlighting its features or possibly demonstrating how to use it.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Poking_[something]_so_lightly_that_it_doesn't_or_almost_doesn't_move_pair_874_0_7499_pair_275_0_7367.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video focuses on a fork placed on a dark green marble countertop. The hand in this segment points to various parts of the fork, drawing attention to its metallic texture and design details.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Poking_[something]_so_lightly_that_it_doesn't_or_almost_doesn't_move_pair_944_0_7573_pair_481_0_7530.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a close-up view of red shoes placed inside a shoebox, with hands reaching into the box to point at and touch them.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_left_to_right_pair_1103_0_8263_pair_1453_0_8213.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a knife with a black handle and silver blade on a white surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_left_to_right_pair_1453_0_8213_pair_658_0_8208.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: \u5728\u53f3\u534a\u90e8\u5206\uff0c\u4e00\u4e2a\u624b\u6301\u667a\u80fd\u624b\u673a\u7684\u4eba\u8bd5\u56fe\u5c06\u624b\u673a\u63d2\u5165\u5200\u7247\u4e2d\u3002",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_left_to_right_pair_359_0_8378_pair_372_0_8363.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video shows a person holding and examining a blue and yellow object, possibly a toy or electronic device.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_left_to_right_pair_372_0_8363_pair_504_0_8292.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the video shows a wooden floor with a hand holding a blue and yellow object.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_left_to_right_pair_41_0_8498_pair_359_0_8378.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a hand is seen holding and manipulating a small object on a white surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_left_to_right_pair_504_0_8292_pair_1103_0_8263.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the screen, a hand is seen holding and manipulating a can on a white surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_left_to_right_pair_629_0_8596_pair_716_0_8589.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a plain, light-colored surface with no visible features or objects.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_left_to_right_pair_658_0_8208_pair_1293_0_8159.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video focuses on a white cabinet with marble-like patterns. A hand is seen interacting with an object on top of the cabinet, possibly adjusting or touching it.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_left_to_right_pair_716_0_8589_pair_41_0_8498.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a person's hand holding and manipulating a small, green object against a plain white background.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_right_to_left_pair_1090_0_9148_pair_272_0_9144.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a hand moving across a flat surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_right_to_left_pair_272_0_9144_pair_991_0_8512.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a person's hand interacting with a white surface. The hand moves around, touching and possibly manipulating the paper or another object on the surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_right_to_left_pair_435_0_8053_pair_597_0_7964.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a hand wearing a purple glove is seen moving around.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_right_to_left_pair_437_0_9419_pair_1090_0_9148.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video shows a person's hand moving from the right side of the frame to the left, placing an orange on a table and then adjusting its position.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_right_to_left_pair_474_0_8251_pair_660_0_8120.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a hand holding a long, thin object with a striped pattern. The hand moves it back and forth against an orange wall, creating shadows that change shape as the object is moved.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_right_to_left_pair_597_0_7964_pair_189_0_7946.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video focuses on a close-up view of a wooden surface, where an object resembling a watch is seen being manipulated by a hand. The movements are deliberate and precise as the person adjusts or examines the item closely.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_right_to_left_pair_660_0_8120_pair_96_0_8077.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a hand holding a pair of scissors, moving them up and down.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_right_to_left_pair_96_0_8077_pair_435_0_8053.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a hand moves towards a small container on the table. The person picks up the container and then places it back down.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_from_right_to_left_pair_991_0_8512_pair_474_0_8251.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the video shows a close-up of an orange wall.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_so_that_it_slightly_moves_pair_112_0_7859_pair_937_0_7778.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a green glass with a hole in it on a countertop. A person's hand is visible, touching the base of the glass and then moving away.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_so_that_it_slightly_moves_pair_239_0_7586_pair_297_0_7573.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a hand is seen holding and examining a small electronic device. The device has buttons and displays various numbers, indicating it may be used for calculations or other data processing tasks.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_so_that_it_slightly_moves_pair_297_0_7573_pair_561_0_7510.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a hand interacting with a red card featuring a slot and some text. The hand moves around, manipulating the card in various ways, suggesting an examination or demonstration of its features.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_so_that_it_slightly_moves_pair_367_0_7761_pair_491_0_7723.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the split-screen, a hand wearing a dark-colored glove is seen rubbing a maroon and white slipper on a black surface. The gloved hand moves back and forth, applying pressure to the slipper as it rubs against itself.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_so_that_it_slightly_moves_pair_491_0_7723_pair_728_0_7643.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a hand reaching for and opening a small container labeled \"Gatsby Double-Cast.\"",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_so_that_it_slightly_moves_pair_561_0_7510_pair_912_0_7494.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a hand is seen picking up and placing down a black object on a flat surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_so_that_it_slightly_moves_pair_646_0_7917_pair_112_0_7859.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: A hand is seen holding a spoon over a wooden table, with the focus on the utensil.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_so_that_it_slightly_moves_pair_728_0_7643_pair_239_0_7586.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video focuses on a calculator, where a hand is seen pressing buttons to perform calculations.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Pushing_[something]_so_that_it_slightly_moves_pair_937_0_7778_pair_367_0_7761.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: \u5728\u5149\u7ebf\u4e0b\uff0c\u4e00\u652f\u9ed1\u8272\u94c5\u7b14\u9759\u9759\u5730\u8eba\u5728\u5e03\u6ee1\u5c0f\u5b54\u7684\u6d45\u8272\u7ec7\u7269\u4e0a\u3002",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_into_[something]_pair_1077_0_7783_pair_789_0_7702.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a glass filled with water and a spoon is placed on a marble surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_into_[something]_pair_310_0_7680_pair_338_0_7555.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: This is a video that shows a person opening a box of LED lamps. The left half of the screen displays a close-up view of a hand holding an LED lamp, while the right half reveals a green and white box with the text \"LED Lamps\" visible on it.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_into_[something]_pair_338_0_7555_pair_846_0_7472.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: \u5728\u53f3\u534a\u90e8\u5206\uff0c\u4e00\u4e2a\u7a7a\u7684\u73bb\u7483\u676f\u653e\u7f6e\u5728\u684c\u5b50\u4e0a\u3002",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_into_[something]_pair_38_0_8877_pair_1077_0_7783.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a person is pouring white beads from their hand into a clear plastic cup.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_into_[something]_pair_592_0_7393_pair_841_0_7370.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a person holding and examining a red shoe, with occasional glimpses into a drawer containing items like toothpaste.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_into_[something]_pair_601_0_7438_pair_592_0_7393.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a person is seen using their hand to peel a banana. They hold the fruit in one hand and use the other hand to remove the skin from the top down. The peeled banana is then placed into a red plastic basket with holes.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_into_[something]_pair_789_0_7702_pair_310_0_7680.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a close-up view of a black and white object, possibly a piece of clothing or fabric, being manipulated by an unseen hand. The background is a solid pink color, creating a stark contrast with the dark tones of the object in focus.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_into_[something]_pair_841_0_7370_pair_396_0_7359.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a person placing cards into a basket.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_into_[something]_pair_846_0_7472_pair_601_0_7438.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the split screen, a hand is seen holding a remote control and pressing buttons.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_next_to_[something]_pair_206_0_7545_pair_763_0_7543.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the image, there is a yellow measuring tape and a small white object with a brown cap.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_next_to_[something]_pair_30_0_7976_pair_812_0_7750.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a black device is placed on a colorful tablecloth. A person's hand appears and picks up a red container with a yellow lid from the table.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_next_to_[something]_pair_424_0_7479_pair_772_0_7447.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the screen, a clear glass with rainbow stripes is placed on a table.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_next_to_[something]_pair_504_0_7699_pair_939_0_7584.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a person holding a stick with a small, red and white snowman decoration on it. The hand moves the stick around to display different angles of the snowman before placing it down next to other objects like a black smartphone and an external hard drive.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_next_to_[something]_pair_720_0_7572_pair_206_0_7545.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a hand holds a transparent pen and then places it on a white surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_next_to_[something]_pair_763_0_7543_pair_424_0_7479.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a close-up view of black beads on a white surface. A hand holding a clear glass with a brown liquid and some objects inside enters from the bottom, moving towards the center of the frame to place the glass among the beads.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_next_to_[something]_pair_812_0_7750_pair_860_0_7707.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The hand picks up a tube of toothpaste and moves it around, showcasing its features.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_next_to_[something]_pair_860_0_7707_pair_504_0_7699.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the video shows a black smartphone lying on top of an open hard drive with a yellow flower placed next to it.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_next_to_[something]_pair_939_0_7584_pair_720_0_7572.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the screen, a person is seen holding an orange toothbrush.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_on_a_surface_pair_1036_0_8015_pair_357_0_7988.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a close-up view of a wooden floor with some shadows and reflections.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_on_a_surface_pair_1116_0_7955_pair_1394_0_7893.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a hand holding and moving a green pencil on a pink and white checkered surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_on_a_surface_pair_1333_0_8345_pair_958_0_8064.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a hand holding and manipulating an object on a white surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_on_a_surface_pair_1394_0_7893_pair_810_0_7884.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a hand is seen holding and moving around an object resembling a glue stick.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_on_a_surface_pair_357_0_7988_pair_887_0_7977.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a hand holding a small, rectangular object with a circular button. The object is placed on a surface covered in various drawings and writings.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_on_a_surface_pair_360_0_8036_pair_1036_0_8015.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a coiled yellow cable on a white surface. A hand enters, picks up the cable, and places it down again in its original position.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_on_a_surface_pair_810_0_7884_pair_345_0_7853.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a hand holding a red and white marker, moving it around on a surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_on_a_surface_pair_887_0_7977_pair_1116_0_7955.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a hand holding a thin stick with a spiral pattern is visible. The background appears to be a smooth surface, possibly a table or desk, and there are no other objects in sight.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something]_on_a_surface_pair_958_0_8064_pair_360_0_8036.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a person's hand holding a small glass bowl.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something_similar_to_other_things_that_are_already_on_the_table]_pair_382_0_7521_pair_575_0_7502.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the image, a hand is seen picking up and placing down two remote controls. The background features characters from Disney Frozen and posters with pink backgrounds.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something_similar_to_other_things_that_are_already_on_the_table]_pair_407_0_7845_pair_797_0_7748.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, there are two white candles placed on a dark brown textured surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something_similar_to_other_things_that_are_already_on_the_table]_pair_494_0_7680_pair_712_0_7560.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a person moving various items on a table, including books and a phone.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something_similar_to_other_things_that_are_already_on_the_table]_pair_534_0_8012_pair_407_0_7845.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a wooden table with various items, including two blue boxes and one red packet.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something_similar_to_other_things_that_are_already_on_the_table]_pair_708_0_7536_pair_382_0_7521.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a hand interacting with several small, round objects on a flat surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something_similar_to_other_things_that_are_already_on_the_table]_pair_712_0_7560_pair_746_0_7536.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video focuses on a gray surface where three coins are placed. A hand enters, picking up one coin and moving it to another location before returning to its original position.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something_similar_to_other_things_that_are_already_on_the_table]_pair_746_0_7536_pair_708_0_7536.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a white cloth is laid out on a surface. Several green chili peppers are placed on this cloth. A hand reaches in from the left side to pick up one of the coins and move it towards the center of the frame. The camera angle remains consistent throughout, providing a clear view of both the coins and the chili peppers.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something_similar_to_other_things_that_are_already_on_the_table]_pair_754_0_8205_pair_534_0_8012.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a hand picks up three colored pencils from a bed with a plaid blanket and moves them aside.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Putting_[something_similar_to_other_things_that_are_already_on_the_table]_pair_797_0_7748_pair_494_0_7680.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the split-screen, a person interacts with two cell phones.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Squeezing_[something]_pair_960_pair_959.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video shows a person's hand holding and squeezing a plastic water bottle.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Squeezing_[something]_pair_961_pair_960.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video shows a person holding and squeezing a blue water bottle on a table, with their hand visible.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Squeezing_[something]_pair_962_pair_961.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a hand is shown holding and manipulating a white piece of paper.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Squeezing_[something]_pair_963_pair_962.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a person's hand holding and manipulating an empty plastic water bottle with a blue cap.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Squeezing_[something]_pair_964_pair_963.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a person squeezing juice from a lime into a glass.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Squeezing_[something]_pair_965_pair_964.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a hand reaching into a clear plastic bag, pulling out and manipulating its contents.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Squeezing_[something]_pair_966_pair_965.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a hand holding an orange bag of snacks with visible text and graphics, likely depicting a brand or product name. The scene is static, focusing on this single action without any movement or additional context provided by other elements in the frame.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Squeezing_[something]_pair_967_pair_966.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the split-screen, a hand is seen holding and manipulating a crumpled piece of white paper. The individual's fingers are actively squeezing and folding the paper into various shapes.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Squeezing_[something]_pair_968_pair_967.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video focuses on a hand holding a small piece of blue paper. The hand moves and manipulates the paper, occasionally bringing it closer to or further from the camera.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[one_of_many_similar_things_on_the_table]_pair_1008_0_7531_pair_728_0_7441.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The hand moves a blue pen from the checkered surface to the container.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[one_of_many_similar_things_on_the_table]_pair_105_0_8438_pair_461_0_7983.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the video shows a hand picking up various colored pens from a green surface, including blue and pink. The pen is held briefly before being placed back down on the same surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[one_of_many_similar_things_on_the_table]_pair_193_0_7877_pair_1008_0_7531.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the frame, several spice containers with yellow lids and red tops are arranged neatly on a marble countertop.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[one_of_many_similar_things_on_the_table]_pair_378_0_7895_pair_193_0_7877.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the screen, there is a wooden table with three pencils placed horizontally. The table appears to be in a well-lit indoor setting.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[one_of_many_similar_things_on_the_table]_pair_447_0_7316_pair_678_0_7281.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a hand picks up markers from a camouflage-patterned surface and places them in a row.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[one_of_many_similar_things_on_the_table]_pair_461_0_7983_pair_378_0_7895.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a hand presses buttons on three remote controls.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[one_of_many_similar_things_on_the_table]_pair_728_0_7441_pair_861_0_7400.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the split-screen video, a pile of batteries is shown. A hand reaches into the frame and picks up one battery from the pile, moving it to the top left corner of the screen.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[one_of_many_similar_things_on_the_table]_pair_835_0_8590_pair_105_0_8438.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a hand is seen holding and manipulating two pens on a green surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[one_of_many_similar_things_on_the_table]_pair_861_0_7400_pair_447_0_7316.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a hand places various colored markers on a white surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[something]_out_of_[something]_pair_102_0_7585_pair_591_0_7566.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The person is putting a black high-heeled shoe into an open box.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[something]_out_of_[something]_pair_257_0_7545_pair_23_0_7521.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a person placing green grapes into a pink container with a lid.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[something]_out_of_[something]_pair_419_0_7831_pair_781_0_7767.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video shows a person opening and closing the zipper of a bag, revealing a cell phone inside.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[something]_out_of_[something]_pair_514_0_8462_pair_680_0_7882.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: \u5728\u84dd\u76c6\u4e2d\uff0c\u624b\u62ff\u9ed1\u74f6\uff0c\u8f7b\u8f7b\u6447\u6643\u5e76\u65cb\u8f6c\u3002",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[something]_out_of_[something]_pair_520_0_7611_pair_102_0_7585.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the screen shows a white container with black cables inside, placed on a wooden surface. A hand appears and interacts with the container, possibly adjusting or retrieving something from it.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[something]_out_of_[something]_pair_524_0_7683_pair_520_0_7611.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: \u5728\u53f3\u534a\u90e8\u5206\uff0c\u4e00\u4e2a\u4eba\u7528\u5de5\u5177\u628a\u53e6\u4e00\u4e2a\u676f\u5b50\u7684\u53e3\u6253\u5f00\u3002",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[something]_out_of_[something]_pair_591_0_7566_pair_257_0_7545.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a person's hand holding and moving around a red plastic container with white handles.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[something]_out_of_[something]_pair_680_0_7882_pair_419_0_7831.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video shows a hand placing an object into a blue bowl and then into a yellow container.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Taking_[something]_out_of_[something]_pair_781_0_7767_pair_524_0_7683.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a hand holds an orange plastic cup on a black surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Tearing_[something]_into_two_pieces_pair_206_0_8385_pair_678_0_8247.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a person wearing a red shirt, holding and folding pieces of paper.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Tearing_[something]_into_two_pieces_pair_3_0_8137_pair_524_0_8094.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The person is folding a piece of paper into a smaller size, then unfolding it and folding it again.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Tearing_[something]_into_two_pieces_pair_407_0_8395_pair_206_0_8385.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a person is seen folding a piece of paper. They fold it in half and then into smaller sections before placing it on a bed with patterned sheets.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Tearing_[something]_into_two_pieces_pair_442_0_8206_pair_486_0_8154.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the split-screen video, a woman with long brown hair wearing a light blue sweater is seen holding and folding pieces of white paper.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Tearing_[something]_into_two_pieces_pair_486_0_8154_pair_3_0_8137.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video focuses on a hand holding and manipulating a white piece of paper. The hand repeatedly folds, tears, or adjusts the paper in various ways throughout the sequence.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Tearing_[something]_into_two_pieces_pair_524_0_8094_pair_668_0_8094.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video shows a person folding and tearing paper.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Tearing_[something]_into_two_pieces_pair_668_0_8094_pair_327_0_7972.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a woman with glasses and blonde hair, wearing a black tank top. She is holding up a piece of paper to her face, covering it from 0 seconds to 3.6 seconds.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Tearing_[something]_into_two_pieces_pair_678_0_8247_pair_442_0_8206.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: This video shows a person in red holding and folding a white piece of paper.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Tearing_[something]_into_two_pieces_pair_98_0_8500_pair_407_0_8395.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the video shows a hand holding a piece of paper with a visible logo, repeatedly folding and unfolding it.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Throwing_[something]_pair_152_0_8859_pair_552_0_8737.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video shows a hand holding an orange and green object, which appears to be a toy or tool. The hand moves the object around in various positions on a surface with a blue and yellow checkered pattern.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Throwing_[something]_pair_199_0_8166_pair_96_0_8126.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video shows a hallway with light-colored marble tiles on the floor.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Throwing_[something]_pair_259_0_8646_pair_342_0_8271.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a white tiled floor with light streaks, where a hand places an object on it.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Throwing_[something]_pair_342_0_8271_pair_673_0_8257.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a clean, shiny tile floor with a blue bottle lying on it.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Throwing_[something]_pair_552_0_8737_pair_259_0_8646.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the frame shows a tiled floor with visible grout lines, featuring light-colored tiles.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Throwing_[something]_pair_673_0_8257_pair_963_0_8187.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a person holding an orange cricket bat in their hand. The background consists of concrete flooring with some scattered red berries, and there is a solar water heater visible on the wall.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Throwing_[something]_pair_76_0_8078_pair_423_0_8030.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a white tiled floor with a person's hand visible in some frames.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Throwing_[something]_pair_963_0_8187_pair_199_0_8166.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a clean tiled floor is shown.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Throwing_[something]_pair_96_0_8126_pair_76_0_8078.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video shows a white tiled floor with a small red ball rolling across it.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Turning_[something]_upside_down_pair_1000_0_7761_pair_498_0_7728.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video focuses on a person's hand holding and manipulating a small blue container with white text. The right side of the screen shows close-up shots, highlighting the details of the container as it is rotated and moved around by the individual.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Turning_[something]_upside_down_pair_1014_0_7801_pair_662_0_7766.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the screen shows a smartphone on a flat surface. A hand enters the frame and picks up the phone, then places it back down again.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Turning_[something]_upside_down_pair_498_0_7728_pair_25_0_7714.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: A hand picks up a bottle of black liquid from the counter, places it down and then picks up a blue container.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Turning_[something]_upside_down_pair_530_0_7870_pair_906_0_7852.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video focuses on a person holding and rotating a bottle labeled 'Caesar' against a white wall.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Turning_[something]_upside_down_pair_576_0_7937_pair_785_0_7875.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a hand with red nail polish is seen holding and manipulating a yellow candle in a glass jar. The candle has a button on top, and the hand adjusts its position and size multiple times before placing it back into the jar.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Turning_[something]_upside_down_pair_662_0_7766_pair_1000_0_7761.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side of the video, a hand is seen holding scissors and cutting through various objects.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Turning_[something]_upside_down_pair_785_0_7875_pair_530_0_7870.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: \u5728\u53f3\u534a\u90e8\u5206\uff0c\u4e00\u4e2a\u4eba\u624b\u62ff\u7740\u4e00\u4e2a\u7eff\u8272\u7684\u957f\u5f62\u7269\u4f53\uff0c\u5e76\u5c06\u5176\u653e\u7f6e\u5728\u684c\u5b50\u4e0a\u3002",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Turning_[something]_upside_down_pair_827_0_8264_pair_576_0_7937.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: On the right side, a hand is seen interacting with a yellow rubber duck against a plain white background.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Turning_[something]_upside_down_pair_906_0_7852_pair_1014_0_7801.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the video focuses on a shoe, showcasing its sole and tread pattern in detail.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Uncovering_[something]_pair_1050_0_8339_pair_249_0_8128.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the video shows a hand holding a pink pen, writing on a piece of paper. The background includes various patterns such as green and yellow plaid and red apples.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Uncovering_[something]_pair_1111_0_8633_pair_994_0_8573.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video displays a red patterned surface with a black border, featuring geometric shapes and small white dots.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Uncovering_[something]_pair_1200_0_8374_pair_584_0_8357.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a colorful checkered pattern, possibly on a bedspread or fabric.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Uncovering_[something]_pair_249_0_8128_pair_991_0_8108.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a person's hand holding a white piece of paper, which is then placed on a surface. The hand moves slightly to adjust its position before placing the paper down.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Uncovering_[something]_pair_306_0_9936_pair_1111_0_8633.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the video shows a white sheet of paper placed on a patterned fabric surface.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Uncovering_[something]_pair_3_0_8524_pair_845_0_8477.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right side of the video shows a hand placing a white sheet on top of another patterned fabric, then smoothing it out to ensure complete coverage.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Uncovering_[something]_pair_584_0_8357_pair_1050_0_8339.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video shows a colorful pattern on the right side of the screen, featuring green and yellow lines against a dark background.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Uncovering_[something]_pair_845_0_8477_pair_1200_0_8374.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The right half of the video shows a green patterned surface, possibly a tablecloth or fabric.",
+        "type": "video"
+    },
+    {
+        "file_path": "/ssd1/jinxiu/PhysVideoGen/Cogvideo1.5/CogVideoX-Fun/datasets/sth_datasets_train/Uncovering_[something]_pair_994_0_8573_pair_3_0_8524.mp4",
+        "text": "The two-panel video features a physics phenomenon transferring, with [LEFT] showing a reference physics phenomenon and [RIGHT] demonstrating the same physics in: The video shows a white piece of paper on the right side, with a hand holding it. A red and black patterned fabric is visible in the background, along with an orange object that moves from left to right across the frame.",
+        "type": "video"
+    }
+]
