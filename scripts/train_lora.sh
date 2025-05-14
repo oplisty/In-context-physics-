@@ -1,4 +1,4 @@
-# export MODEL_NAME="/ssd2/jinxiu/weights/cogvideo/models/Diffusion_Transformer/CogVideoX-Fun-V1.5-5b-InP"
+# export MODEL_NAME="models/Diffusion_Transformer/CogVideoX-Fun-V1.5-5b-InP"
 # export DATASET_NAME="/ssd1/jinxiu/PhysVideoGen/CogVideoX-Fun/datasets/internal_datasets/"
 # export DATASET_META_NAME="/ssd1/jinxiu/PhysVideoGen/CogVideoX-Fun/datasets/internal_datasets/metadata.json"
 # export NCCL_IB_DISABLE=1
